@@ -1,0 +1,44 @@
+.btn {
+    position: relative;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color:gold;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    /* padding: ; */
+    border-radius: 10px;
+    height: 50px;
+    cursor: wait;
+    margin: 20px;
+  }
+  
+  .btn:hover, .btn:focus {
+    background-color: red;
+    color: black;
+  }
+
+  .btn.wide {
+    width: 200px;
+  }
+  
+  /* .btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    background-color:  #1a00ff35;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+  }
+
+  .icon {
+    height: 100%;
+    width: 100%;
+  } */
