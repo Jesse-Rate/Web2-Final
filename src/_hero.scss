@@ -1,27 +1,12 @@
 .main-hero {
   display: flex;
+  width: 100%;
+  height: 320px;
+  background-image: url('../pictures/faded_mobile.png');
   background-size: cover;
   
   &.content-right {
     align-content: center;
-  }
-
-  &.mobile {
-    width: 100%;
-    height: 320px;
-    background-image: url('../pictures/faded_mobile.png');
-  }
-
-  &.tablet {
-    width: 100%;
-    height: 520px;
-    background-image: url('./pictures/faded_tablet.png');
-  }
-
-  &.desktop {
-    width: 100%;
-    height: 720px;
-    background-image: url('./pictures/faded_desktop.png');
   }
 
 }
