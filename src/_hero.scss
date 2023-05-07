@@ -6,28 +6,22 @@
     align-content: center;
   }
 
-  blockquote {
-    position: relative;
-    width: 200px;
-    font-size: 1.5em;
-    color: blue;
-  }
-
   &.mobile {
     width: 100%;
     height: 320px;
-    background-image: url('pictures/.png');
+    background-image: url('../pictures/faded_mobile.png');
   }
 
   &.tablet {
     width: 100%;
     height: 520px;
-    background-image: url('pictures/.png');
+    background-image: url('./pictures/faded_tablet.png');
   }
 
   &.desktop {
     width: 100%;
     height: 720px;
-    background-image: url('pictures/.png');
+    background-image: url('./pictures/faded_desktop.png');
   }
+
 }
