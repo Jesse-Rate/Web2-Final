@@ -1,8 +1,5 @@
 .main-hero {
   display: flex;
-  width: 100%;
-  height: 320px;
-  background-image: url('pictures/you_are_what_you _eat.png');
   background-size: cover;
   
   &.content-right {
@@ -14,5 +11,23 @@
     width: 200px;
     font-size: 1.5em;
     color: blue;
+  }
+
+  &.mobile {
+    width: 100%;
+    height: 320px;
+    background-image: url('pictures/.png');
+  }
+
+  &.tablet {
+    width: 100%;
+    height: 520px;
+    background-image: url('pictures/.png');
+  }
+
+  &.desktop {
+    width: 100%;
+    height: 720px;
+    background-image: url('pictures/.png');
   }
 }
