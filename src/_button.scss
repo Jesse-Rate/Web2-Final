@@ -14,18 +14,17 @@
     height: 50px;
     cursor: wait;
     margin: 20px;
-  }
   
-  .btn:hover, .btn:focus {
+  &.hover, .focus {
     background-color: red;
     color: black;
   }
 
-  .btn.wide {
+  &.wide {
     width: 200px;
   }
   
-  /* .btn::before {
+  &.before {
     content: "";
     position: absolute;
     top: 50%;
@@ -38,7 +37,9 @@
     transition: all 0.3s ease;
   }
 
-  .icon {
-    height: 100%;
-    width: 100%;
-  } */
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+}
